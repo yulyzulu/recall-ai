@@ -1,0 +1,14 @@
+# Dependencias: se reinstalan con npm install, pesan cientos de MB
+node_modules/
+
+# Secretos: claves del LLM, JWT_SECRET, contraseña de la base de datos
+.env
+.env.local
+
+# Archivos que se generan solos al compilar
+.next/
+dist/
+
+# Python (para diciembre)
+__pycache__/
+.venv/
